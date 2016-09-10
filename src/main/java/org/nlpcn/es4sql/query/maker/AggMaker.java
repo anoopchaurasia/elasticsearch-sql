@@ -460,6 +460,7 @@ public class AggMaker {
                 case "nested":
                 case "reverse_nested":
                 case "children":
+                case "offset":
                     break;
                 default:
                     throw new SqlParseException("date range err or not define field " + kv.toString());
